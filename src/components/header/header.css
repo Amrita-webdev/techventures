@@ -1,0 +1,60 @@
+header{
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+.header__container{
+    text-align: center;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+/*==============CTA================*/
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+/*==========Header Socials===============*/
+.header__socials{
+    display: flex;
+    align-items: center;
+    left: 50%;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+
+/*==========Image===============*/
+.me{
+    background-color: var(--color-primary);
+    width: 25rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8rem 8rem 0 0;
+    margin-top: 4rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    overflow: hidden;
+}
+
+/*=========Responsive (TABLETS)============*/
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+
+    }
+}
+/*=========Responsive (MOBILES)============*/
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+
+}
